@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #888;
+}
+
+.calculator {
+  width: 375px;
+  margin: 30px auto 0;
+  background-color: black;
+  border-radius: 15px;
+}
+
+#result {
+  height: 30%;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+#result-content {
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
+  font-size: 5rem;
+  margin-top: 50px;
+}
+
+.calc {
+  padding: 10px 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+.btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #333333;
+  font-size: 1.8rem;
+  transition: all 0.1s;
+}
+
+.btn-zero {
+  width: 153px;
+  text-align: left;
+  padding-left: 28px;
+  border-radius: 25% 25% 25% 25% / 50% 50% 50% 50%;
+}
+
+.btn-orange {
+  background-color: #f9a00c;
+}
+
+.btn-gray {
+  color: #000;
+  background-color: #a5a5a5;
+}
+
+.btn:hover {
+  background-color: #534f4f;
+}
+.btn-gray:hover {
+  background-color: #ddd;
+}
+.btn-orange:hover {
+  background-color: #ffd389;
+}
